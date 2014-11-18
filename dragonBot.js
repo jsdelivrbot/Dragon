@@ -161,12 +161,12 @@
         return m;
     };
 
-    var botCreator = "Matthew aka. Yemasthui";
+    var botCreator = "Everton Costa";
     var botCreatorIDs = [];
 
     var basicBot = {
         version: "2.1.3",
-        status: false,
+        status: true,
         name: "Dragon Bot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/EvertonCos/Dragon/master/dragonBot",
@@ -1534,26 +1534,26 @@
                 command: 'cookie',
                 rank: 'user',
                 type: 'startsWith',
-                cookies: ['has given you a chocolate chip cookie!',
-                    'has given you a soft homemade oatmeal cookie!',
-                    'has given you a plain, dry, old cookie. It was the last one in the bag. Gross.',
-                    'gives you a sugar cookie. What, no frosting and sprinkles? 0/10 would not touch.',
-                    'gives you a chocolate chip cookie. Oh wait, those are raisins. Bleck!',
-                    'gives you an enormous cookie. Poking it gives you more cookies. Weird.',
-                    'gives you a fortune cookie. It reads "Why aren\'t you working on any projects?"',
-                    'gives you a fortune cookie. It reads "Give that special someone a compliment"',
-                    'gives you a fortune cookie. It reads "Take a risk!"',
-                    'gives you a fortune cookie. It reads "Go outside."',
-                    'gives you a fortune cookie. It reads "Don\'t forget to eat your veggies!"',
-                    'gives you a fortune cookie. It reads "Do you even lift?"',
-                    'gives you a fortune cookie. It reads "m808 pls"',
-                    'gives you a fortune cookie. It reads "If you move your hips, you\'ll get all the ladies."',
-                    'gives you a fortune cookie. It reads "I love you."',
-                    'gives you a Golden Cookie. You can\'t eat it because it is made of gold. Dammit.',
-                    'gives you an Oreo cookie with a glass of milk!',
-                    'gives you a rainbow cookie made with love :heart:',
-                    'gives you an old cookie that was left out in the rain, it\'s moldy.',
-                    'bakes you fresh cookies, it smells amazing.'
+                cookies: ['Deu-lhe um biscoito de chocolate!',
+                    'Deu-lhe um biscoito de aveia caseiro macio!',
+                    'Deu-lhe um biscoito velho, era o ultimo da bolsa. Eca!',
+                    'Deu-lhe um biscoito de açucar. oque? sem geada e polvilho? eu não trocaria.',
+                    'Deu-lhe um biscoito de chocolate. Oh, espere, São Passas. Eca!',
+                    'Deu-lhe um enorme biscoito, espere... ele quer te dar mais, hm.. estranho!',
+                    'Deu-lhe um biscoito da sorte, escrito "Perdeu Seu tempo Lendo isso"',
+                    'Deu-lhe um biscoito da sorte, escrito "Elogie aquela pessoa especial"',
+                    'Deu-lhe um biscoito da sorte, escrito "Aventure-se"',
+                    'Deu-lhe um biscoito da sorte, escrito "Suma Daqui"',
+                    'Deu-lhe um biscoito da sorte, escrito "Não se esqueceça de comer seus legumes."',
+                    'Deu-le um biscoito da sorte, escrito "Continue Dormindo"',
+                    'Deu-lhe um biscoito da sorte, escrito "Agradeça a Deus"',
+                    'Deu-le um biscoito da sorte, escrito "Se você rebolar, você ficará tão sexy!"',
+                    'Deu-le um biscoito da sorte, escrito "Eu te Amo"',
+                    'Deu-lhe um biscoito de Ouro, Que Pena que não posso comê-lo.',
+                    'Deu-lhe um biscoito de Oreo e um Copo de Leite.',
+                    'Deu-lhe um biscoito arco-iris, feito com muito amor. :heart:',
+                    'Deu-lhe um biscoito Velho Que foi deixado na chuva, está mofado.',
+                    'Deu-lhe uma Voadora e um Kamehameha.'
                 ],
                 getCookie: function () {
                     var c = Math.floor(Math.random() * this.cookies.length);
