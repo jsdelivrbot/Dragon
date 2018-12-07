@@ -41,7 +41,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/EvertonCos/Dragon/master/lang/langIndex.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/EvertonCos/Dragon/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -171,14 +171,14 @@
         loggedInID: null,
         scriptLink: "https://rawgit.com/EvertonCos/Dragon/master/dragonBot",
         cmdLink: "http://git.io/3vioQw",
-        chatLink: "https://rawgit.com/EvertonCos/Dragon/master/lang/langIndex.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/EvertonCos/Dragon/lang/langIndex.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         settings: {
             botName: "Dragon Bot",
             language: "Portuguese",
-            chatLink: "https://rawgit.com/EvertonCos/Dragon-Bot/master/lang/pt.json",
+            chatLink: "https://cdn.jsdelivr.net/gh/EvertonCos/Dragon-Bot/lang/pt.json",
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
